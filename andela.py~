@@ -1,0 +1,21 @@
+
+def andela():
+    list=[]
+    a=input("first number: ")
+    list.append(a)
+    b=input("second number: ")
+    list.append(b)
+    c=input("third number: ")
+    list.append(c)
+    d=input("fourth number: ")
+    list.append(d)
+    e=input("fifth number: ")
+    list.append(e)
+    print list 
+    print list.sort() 
+    while a in list:
+          f=list.pop(0)
+          l=list.pop()
+          print f*l
+    return list
+
